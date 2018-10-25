@@ -31,8 +31,15 @@ public class Main {
         /**
          * Permutations of a String
          * */
-        StringPermutation sp = new StringPermutation();
-        sp.getPermutation("abcdefghij");
+//        StringPermutation sp = new StringPermutation();
+//        sp.getPermutation("abcdefghij");
+
+        /**
+         * Coin Change or make sum from subset
+         */
+//        CoinChangeProblem ccp = new CoinChangeProblem();
+//        System.out.println(ccp.getSubsets(new int[]{1,2,3},4));
+
 
     }
 }
