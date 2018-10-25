@@ -2,6 +2,10 @@ package CrackingTheCodingInterview;
 
 public class Main {
     public static void main(String[] args){
+
+        /**
+         * Matrix Rotation by 90 degree
+         * */
 //        RearrangeWithoutConsec rwc = new RearrangeWithoutConsec();
 //        System.out.println(rwc.reArragne("aaaaaabb"));
 
@@ -11,13 +15,24 @@ public class Main {
 //        mr.rotateMatrix(mat[0].length,mat);
 //        mr.displayMatrix(mat[0].length,mat);
 
-        LoopDetectLL<Integer> lld = new LoopDetectLL<Integer>();
-        for(int i=0;i<20;i++){
-            lld.insertAtEnd(i);
-        }
-        lld.createLoop();// randomly create a loop
-        System.out.println("loop is detected at "+lld.detectLoop());
-        System.out.println(lld);    //printing the list till twice the size to check if the loop was correctly detected
+
+        /**
+         * Loop Detection using Rabbit and Tortoise algorithm
+         * */
+//        LoopDetectLL<Integer> lld = new LoopDetectLL<Integer>();
+//        for(int i=0;i<20;i++){
+//            lld.insertAtEnd(i);
+//        }
+//        lld.createLoop();// randomly create a loop
+//        System.out.println("loop is detected at "+lld.detectLoop());
+//        System.out.println(lld);    //printing the list till twice the size to check if the loop was correctly detected
+
+
+        /**
+         * Permutations of a String
+         * */
+        StringPermutation sp = new StringPermutation();
+        sp.getPermutation("abcdefghij");
 
     }
 }
