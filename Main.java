@@ -40,6 +40,7 @@ public class Main {
 //        CoinChangeProblem ccp = new CoinChangeProblem();
 //        System.out.println(ccp.getSubsets(new int[]{1,2,3},4));
 
-
+        SubsetArrays sa = new SubsetArrays();
+        sa.getSubset(new int[]{1,2,3});
     }
 }
