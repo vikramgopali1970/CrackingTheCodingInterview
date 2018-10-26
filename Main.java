@@ -40,7 +40,16 @@ public class Main {
 //        CoinChangeProblem ccp = new CoinChangeProblem();
 //        System.out.println(ccp.getSubsets(new int[]{1,2,3},4));
 
-        SubsetArrays sa = new SubsetArrays();
-        sa.getSubset(new int[]{1,2,3});
+        /**
+         * All subsets of an array
+         */
+//        SubsetArrays sa = new SubsetArrays();
+//        sa.getSubset(new int[]{1,2,3});
+
+        /**
+         * find pair of sums
+         */
+//        PairSum ps = new PairSum();
+//        ps.singlePair(new int[]{1,2,3,4,4},5);
     }
 }
