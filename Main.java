@@ -52,7 +52,27 @@ public class Main {
 //        PairSum ps = new PairSum();
 //        ps.singlePair(new int[]{1,2,3,4,4},5);
 
-        FirstRecurringChar frc = new FirstRecurringChar();
-        System.out.println(frc.getFirstRecurringCharacter("dbcaba"));
+        /**
+         * First recurring character in a string
+         */
+//        FirstRecurringChar frc = new FirstRecurringChar();
+//        System.out.println(frc.getFirstRecurringCharacter("dbcaba"));
+
+        /**
+         * Implement a queue with single stack
+         */
+        QueueStack<Integer> qs = new QueueStack<Integer>();
+        qs.enque(12);
+        qs.enque(13);
+        qs.enque(14);
+        qs.enque(15);
+        qs.enque(16);
+        qs.enque(17);
+        qs.printStack();
+        qs.dequeue();
+        qs.printStack();
+        qs.dequeue();
+        qs.printStack();qs.dequeue();
+        qs.printStack();
     }
 }
