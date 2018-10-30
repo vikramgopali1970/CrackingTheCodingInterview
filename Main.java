@@ -51,5 +51,8 @@ public class Main {
          */
 //        PairSum ps = new PairSum();
 //        ps.singlePair(new int[]{1,2,3,4,4},5);
+
+        FirstRecurringChar frc = new FirstRecurringChar();
+        System.out.println(frc.getFirstRecurringCharacter("dbcaba"));
     }
 }
