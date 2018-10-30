@@ -61,18 +61,18 @@ public class Main {
         /**
          * Implement a queue with single stack
          */
-        QueueStack<Integer> qs = new QueueStack<Integer>();
-        qs.enque(12);
-        qs.enque(13);
-        qs.enque(14);
-        qs.enque(15);
-        qs.enque(16);
-        qs.enque(17);
-        qs.printStack();
-        qs.dequeue();
-        qs.printStack();
-        qs.dequeue();
-        qs.printStack();qs.dequeue();
-        qs.printStack();
+//        QueueStack<Integer> qs = new QueueStack<Integer>();
+//        qs.enque(12);
+//        qs.enque(13);
+//        qs.enque(14);
+//        qs.enque(15);
+//        qs.enque(16);
+//        qs.enque(17);
+//        qs.printStack();
+//        qs.dequeue();
+//        qs.printStack();
+//        qs.dequeue();
+//        qs.printStack();qs.dequeue();
+//        qs.printStack();
     }
 }
