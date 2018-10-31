@@ -85,8 +85,14 @@ public class Main {
         /**
          * NQueens solution
          */
-        NQueen nq = new NQueen(5);
-        System.out.println(nq.findNQueens());
+//        NQueen nq = new NQueen(5);
+//        System.out.println(nq.findNQueens());
 
+
+        /**
+         * Maximum square of 1's in a matrix of 0's and 1's
+         */
+        MaximumSquareOfOne msoo = new MaximumSquareOfOne(new int[][]{{1,1,0,1,0},{0,1,1,1,1},{1,1,1,1,1},{0,1,1,1,1},{0,1,1,1,1}});
+        System.out.println(msoo.getMaxSquare());
     }
 }
