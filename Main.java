@@ -75,7 +75,18 @@ public class Main {
 //        qs.printStack();qs.dequeue();
 //        qs.printStack();
 
-        Triplets t = new Triplets();
-        t.findTriplets(new int[]{0, -1, 2, -3, 1},0);
+
+        /**
+         * Sum of triplets
+         */
+//        Triplets t = new Triplets();
+//        t.findTriplets(new int[]{0, -1, 2, -3, 1},0);
+
+        /**
+         * NQueens solution
+         */
+        NQueen nq = new NQueen(5);
+        System.out.println(nq.findNQueens());
+
     }
 }
