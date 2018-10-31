@@ -80,7 +80,7 @@ public class Main {
          * Sum of triplets
          */
 //        Triplets t = new Triplets();
-//        t.findTriplets(new int[]{0, -1, 2, -3, 1},0);
+//        System.out.println(t.sumTripletIterative(new int[]{-2, 0, 1, 1, 2},0));
 
         /**
          * NQueens solution
@@ -92,7 +92,7 @@ public class Main {
         /**
          * Maximum square of 1's in a matrix of 0's and 1's
          */
-        MaximumSquareOfOne msoo = new MaximumSquareOfOne(new int[][]{{1,1,0,1,0},{0,1,1,1,1},{1,1,1,1,1},{0,1,1,1,1},{0,1,1,1,1}});
-        System.out.println(msoo.getMaxSquare());
+//        MaximumSquareOfOne msoo = new MaximumSquareOfOne(new int[][]{{1,1,0,1,0},{0,1,1,1,1},{1,1,1,1,1},{0,1,1,1,1},{0,1,1,1,1}});
+//        System.out.println(msoo.getMaxSquare());
     }
 }
