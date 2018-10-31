@@ -74,5 +74,8 @@ public class Main {
 //        qs.dequeue();
 //        qs.printStack();qs.dequeue();
 //        qs.printStack();
+
+        Triplets t = new Triplets();
+        t.findTriplets(new int[]{0, -1, 2, -3, 1},0);
     }
 }
