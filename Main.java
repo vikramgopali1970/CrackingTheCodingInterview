@@ -98,7 +98,7 @@ public class Main {
         /**
          * Min Max ina an Array with single pass.
          * */
-        MinMax mm = new MinMax();
-        mm.printMinMax(new int[]{1,3,4,5,22,2,3,6,5,-1,3,0,6});
+//        MinMax mm = new MinMax();
+//        mm.printMinMax(new int[]{1,3,4,5,22,2,3,6,5,-1,3,0,6});
     }
 }
