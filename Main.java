@@ -100,5 +100,10 @@ public class Main {
          * */
 //        MinMax mm = new MinMax();
 //        mm.printMinMax(new int[]{1,3,4,5,22,2,3,6,5,-1,3,0,6});
+
+
+        EditDistanceDP edDp = new EditDistanceDP();
+        System.out.println(edDp.iterativeEditDistance("sunday","saturday"));
+
     }
 }
